@@ -1,0 +1,44 @@
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Generated results
+results/
+
+# Model checkpoints / generated weights (if applicable)
+# Uncomment only if these are generated files:
+# models/*.pt
+# models/*.pth
+# models/*.onnx
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# PDFs excluded from GitHub
+Project_Report.pdf
+3_An_Efficient_Detection_and_Classification_of_Acute_Leukemia_Using_Transfer_Learning_and_Orthogonal_Softmax_Layer-Based_Model.pdf
